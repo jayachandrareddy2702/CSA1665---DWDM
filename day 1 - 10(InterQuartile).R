@@ -1,0 +1,5 @@
+t<- c(78.3, 81.8, 82, 74.2, 83.4, 84.5, 82.9, 77.5, 80.9, 70.6)
+iqr_t<- IQR(t)
+print(paste("Interquartile Range (IQR):", iqr_t))
+sd_t<- sd(t)
+print(paste("Standard Deviation:",sd_t))
